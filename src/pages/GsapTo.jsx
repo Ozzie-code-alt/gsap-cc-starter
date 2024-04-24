@@ -7,10 +7,9 @@ const GsapTo = () => {
       x: 600,
       repeat: -1,
       yoyo: true,
-      ease: "bounce",
       rotate: 180,
       duration: 2,
-      ease:'elastic'
+      ease:'back.out'
     });
   }, []);
   return (
